@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beloved+Sans&display=swap');
 
 * {
     margin: 0;
@@ -9,8 +9,13 @@
 html body {
     height: 100vh;
     width: 100vw;
-    font-family: Besley, serif;
+    font-family: 'Beloved Sans', sans-serif;
     overflow-x: hidden;
+}
+
+body {
+    background-color: #F5ECE4;
+    color: #3E2723;
 }
 
 .header {
@@ -39,7 +44,7 @@ html body {
 }
 
 .right-links {
-    margin-right: 1.0vw;
+    margin-right: 1.3vw;
 }
 
 .header .links a {
@@ -48,6 +53,40 @@ html body {
 }
 
 main {
-    background-color: #F5ECE4;
-    color: #3E2723;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.intro {
+    margin: 30px 0 50px 0;
+    padding: 0 15px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.intro img {
+    border-radius: 12%;
+    max-width: 500px;
+    height: auto;
+    flex: 1 1 500px;
+}
+
+.intro-text {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+    font-size: 1.4vw;
+}
+
+.intro .intro-text ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3vw;
+}
+
+.intro .intro-text h2 {
+    margin-top: 1.5vw ;
 }
